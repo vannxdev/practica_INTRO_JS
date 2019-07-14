@@ -163,13 +163,7 @@ class Mano {
   }
 
   esColor() {
-    // let oldValor = 0;
-    // let cont = 0;
-    // this.mano.forEach( element => {
-    //     if (cont == 0) { oldValor = element.palo; cont = 1; }         // Cogemos el 1er valor
-    //     else if (element.palo == oldValor) { cont++; }
-    // });
-    // return (cont==5);
+
     let res = false, count = 0, aux = "";
     this.mano.forEach(element => {
         if(count == 0){
